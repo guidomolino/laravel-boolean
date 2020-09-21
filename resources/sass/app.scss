@@ -1,1 +1,72 @@
-//
+// globals
+*{
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+}
+
+// structure
+
+header{
+  text-align: center;
+
+  img{
+    width: 300px;
+    height: auto;
+    margin-bottom: 50px;
+  }
+
+  nav{
+
+    a{
+      text-decoration: none;
+      color: black;
+      font-size: 40px;
+      font-weight: bold;
+
+      margin: 0 30px;
+    }
+  }
+
+}
+
+main{
+  padding: 60px 0;
+  section{
+    margin: 0;
+
+    h1{
+      color: rgb(33, 35, 171);
+      font-size: 32px;
+    }
+
+  }
+}
+
+footer{
+  display: flex;
+  justify-content:space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  div{
+    width: 250px;
+
+    ul{
+      list-style: none;
+      margin: 20px 0 10px 0;
+
+      font-size: 18px;
+
+      li{
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
