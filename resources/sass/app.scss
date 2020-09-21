@@ -46,6 +46,18 @@ main{
       font-size: 32px;
     }
 
+    div.pasta-container{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+      img{
+        width: 150px;
+        height: 80px;
+      }
+    }
+
   }
 }
 

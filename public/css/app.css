@@ -40,6 +40,18 @@ main section h1 {
   font-size: 32px;
 }
 
+main section div.pasta-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+main section div.pasta-container img {
+  width: 150px;
+  height: 80px;
+}
+
 footer {
   display: flex;
   justify-content: space-between;
