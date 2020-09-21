@@ -5,7 +5,7 @@
 }
 
 .container {
-  width: 80%;
+  width: 60%;
   margin: auto;
 }
 
@@ -32,10 +32,11 @@ main {
 }
 
 main section {
-  margin: 0;
+  margin: 40px 0;
 }
 
 main section h1 {
+  margin-bottom: 20px;
   color: #2123ab;
   font-size: 32px;
 }
@@ -43,13 +44,14 @@ main section h1 {
 main section div.pasta-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
   flex-wrap: wrap;
 }
 
 main section div.pasta-container img {
   width: 150px;
   height: 80px;
+  margin: 10px;
 }
 
 footer {

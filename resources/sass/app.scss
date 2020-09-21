@@ -7,7 +7,7 @@
 }
 
 .container{
-  width: 80%;
+  width: 60%;
   margin: auto;
 }
 
@@ -39,9 +39,10 @@ header{
 main{
   padding: 60px 0;
   section{
-    margin: 0;
+    margin: 40px 0;
 
     h1{
+      margin-bottom: 20px;
       color: rgb(33, 35, 171);
       font-size: 32px;
     }
@@ -49,12 +50,14 @@ main{
     div.pasta-container{
       display: flex;
       align-items: center;
-      justify-content: space-between;
+      justify-content: flex-start;
       flex-wrap: wrap;
 
       img{
         width: 150px;
         height: 80px;
+
+        margin: 10px;
       }
     }
 
