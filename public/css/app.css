@@ -50,8 +50,8 @@ main section div.pasta-container {
 }
 
 main section div.pasta-container img {
-  width: 150px;
-  height: 80px;
+  width: 200px;
+  height: 120px;
   margin: 10px;
 }
 
@@ -74,5 +74,6 @@ footer div ul {
 
 footer div ul li {
   margin-bottom: 10px;
+  cursor: pointer;
 }
 
